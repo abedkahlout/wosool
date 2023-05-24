@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+		<!--
+         Primary meta tag 
+          -->
+
+		<title>وصول</title>
+		<meta name="title" content="وصول اضافي للتدريب" />
+		<meta name="description" content="موقع تعليمي يجهزك لتكون متعلما في تخصصك " />
+
+		<!-- 
+        Icon for title 
+        -->
+
+		<link rel="shortcut icon" href="assets/images/logo.jpg" type="image" />
+
+		<!-- 
+        Cusotm fonts links
+           -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- 
+            Preload images 
+         -->
+
+		<link rel="preload" as="image" href="assets/images/logo.jpg" />
+
+		<!--
+             Custom link
+          -->
+
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- 
+            Swiper js Carousel *Slider*
+          -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+
+		<!-- 
+            Bootstrap 5 Links 
+           -->
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+			integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+			crossorigin="anonymous"
+		/>
+		<!-- 
+			AOS Animation library
+		 -->
+		 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	</head>
+	<body>
+		<!-- 
+            - PRELOADER
+         -->
+		<div class="preloader">
+			<span><img src="assets/images/logo.jpg" alt=""></span>
+			<span class="loader"></span>
+		</div>
+
+		<!-- 
+                - HEADER
+            -->
+		<header id="header">
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center">
+					<div class="d-flex align-items-center">
+						<div class="logo">
+							<img
+								src="assets/images/logo.jpg"
+								class="logo"
+								alt="logo"
+								height="100px"
+								width="100px"
+								data-aos="fade-down"
+								data-aos-easing="linear"
+								data-aos-duration="1000"
+							/>
+						</div>
+					</div>
+					<div class="d-flex gap-5 align-items-center">
+						<p>المملكة العربية السعودية</p>
+						<p>+005151515151</p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- 
+                - NAVBAR
+            -->
+		<nav class="navbar navbar-expand-lg navbar-light ">
+			<div class="container">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">الرئيسية</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="we.html">من نحن ؟</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blog.html">المدونة</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="photos-library.html">المكتبة</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="training.html">البرامج التدريبية</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">التوظيف</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">السياسات العامة للمركز</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">أخبارنا</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+        <!-- Mobile
+             for
+            NAVBAR
+            -->
+            <ul class="navbar-mobile">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">الرئيسية</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="we.html">من نحن ؟</a>
+				</li>
+                <li class="nav-m">
+                    <a class="link-m" href="blog.html">المدونة</a>
+                </li>
+                <li class="nav-m">
+                    <a class="link-m" href="photos-library.html">المكتبة</a>
+                </li>
+
+                <li class="nav-m">
+                    <a class="link-m" href="training.html">البرامج التدريبية</a>
+                </li>
+
+                <li class="nav-m">
+                     <a class="link-m" href="#">التوظيف</a>
+                </li>
+
+                <li class="nav-m">
+                     <a class="link-m" href="#">السياسات  </a>
+                </li>
+
+                <li class="nav-m">
+                     <a class="link-m" href="#">أخبارنا</a>
+                </li>
+            </ul>
+
+		<!-- 
+                - HERO
+            -->
+		<div class="swiper mySwiper" >
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="bg-section-hero">
+						<img src="assets/images/library.jpg" width="100%" height="100%" alt="" />
+
+						<div class="carouse-text text-center">
+							إِن موقع وصول إضافي للتدريب من أفضل و أميز المواقع للتدريب في الوطن
+							العربي حيث يجعلك تتمكن من زيادة مهاراتك و خبراتك
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="bg-section-hero">
+						<img src="assets/images/buisness.png" width="100%" height="100%" alt="" />
+
+						<div class="carouse-text text-center">
+							قيمة مضافة من المهارات المعرفية والتطويرية للمتدرب من خلال مجموعة من
+							االأساليب الإبداعية
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+
+		<!-- 
+                - WE ARE
+            -->
+            <section id="weare-section"
+		>
+                <div class="we-are container">
+                    <div class="title"
+					data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1000"
+					>
+                        <h2>لماذا نحن ؟ </h2>
+                        <p>لأننا نهدف دومًا إلى أن نكون شركاءكم في كل نجاح
+                        </p>
+                    </div>
+                        <div class="row mt-5 we-are-desc">
+                            <div class="col-lg-4 col-sm-12  we-are-desc-train"
+						
+							>
+                                <span class="we-num">
+                                    1
+                                </span>
+                                <div class="we-img">
+                                    <img src="assets/images/LMS.png" width="50px" height="50px" alt="">
+                                </div>
+                                <h3 class="we-h2">
+                                    التدريب عن بعد
+
+                                </h2>
+                                <p class="we-p">التدريب عن بُعد هو أحدث الطرائق المعتمدة للتدريب وللحصول على برامج تدريبية، ويمتاز التدريب عن بعد عن التدريب التقليدي أو النمطي بالعديد من المميزات، يمكن تلخيصها في مجموعة النقاط التالية:
+
+                                    تقليل الوقت المستغرق في التدريب.
+                                    
+                                    التركيز على اكتساب الخبرات المطلوبة.
+                                    
+                                    إتاحة الفرصة لحضور الدورة من أي مكان.
+                                    
+                                    حرية أكثر للمتدرب في ممارسة التدريب.
+                                    
+                                    فرصة أكبر في التواصل مع المدرب.
+                                    
+                                    فرصة أكبر للاستفادة من المصادر الخارجية.
+                                    
+                                    التنوع في البرامج التدريبية مما يتيح فرصة أكبر في الاختيار.
+                                    
+                                    التسجيل الآلي للدورة وإمكانية استرجاعها أكثر من مر</p>
+                                
+                            </div>
+                            <div class="col-lg-4 col-sm-12  we-are-desc-train"
+						>
+
+                                <span class="we-num">
+                                    2
+                                </span>
+                                <div class="we-img">
+                                    <img src="assets/images/tag.png" width="50px" height="50px" alt="">
+                                </div>
+                                <h3 class="we-h2">
+                                    كل الشهادات معتمدة وموثوقة
+
+                                </h2>
+                                <p class="we-p">التدريب عن بُعد هو أحدث الطرائق المعتمدة للتدريب وللحصول على برامج تدريبية، ويمتاز التدريب عن بعد عن التدريب التقليدي أو النمطي بالعديد من المميزات، يمكن تلخيصها في مجموعة النقاط التالية:
+
+                                    تقليل الوقت المستغرق في التدريب.
+                                    
+                                    التركيز على اكتساب الخبرات المطلوبة.
+                                    
+                                    إتاحة الفرصة لحضور الدورة من أي مكان.
+                                    
+                                    حرية أكثر للمتدرب في ممارسة التدريب.
+                                 <br>   
+                                    فرصة أكبر في التواصل مع المدرب.
+                                    
+                                    فرصة أكبر للاستفادة من المصادر الخارجية.
+                                    
+                                    التنوع في البرامج التدريبية مما يتيح فرصة أكبر في الاختيار.
+                                    
+                                    التسجيل الآلي للدورة وإمكانية استرجاعها أكثر من مر
+								</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-12  we-are-desc-train"
+						
+							>
+                                <span class="we-num">
+                                    3
+                                </span>
+                                <div class="we-img">
+                                    <img src="assets/images/communic.png" width="50px" height="50px" alt="">
+                                </div>
+                                <h3 class="we-h2">
+                                    لماذا يتم اختيار مركز وصول إضافي ليكون شريك المتدرب؟
+
+                                </h2>
+                                <p class="we-p">التدريب عن بُعد هو أحدث الطرائق المعتمدة للتدريب وللحصول على برامج تدريبية، ويمتاز التدريب عن بعد عن التدريب التقليدي أو النمطي بالعديد من المميزات، يمكن تلخيصها في مجموعة النقاط التالية:
+
+                                    تقليل الوقت المستغرق في التدريب.
+                                    
+                                    التركيز على اكتساب الخبرات المطلوبة.
+                                    
+                                    إتاحة الفرصة لحضور الدورة من أي مكان.
+                                    
+                                    حرية أكثر للمتدرب في ممارسة التدريب.
+                                    
+                                    فرصة أكبر في التواصل مع المدرب.
+                                    
+                                    فرصة أكبر للاستفادة من المصادر الخارجية.
+                                    <br>
+                                    التنوع في البرامج التدريبية مما يتيح فرصة أكبر في الاختيار.
+                                    
+                                    <br>
+                                    التسجيل الآلي للدورة وإمكانية استرجاعها أكثر من مر
+								</p>                   
+								         </div>
+                        </div>
+                </div>
+            </section>
+
+		<!-- 
+			-TRAINNING 
+		 -->
+		 <section id="trainning">
+			<div class="title text-center"
+			data-aos="fade-down"
+			data-aos-easing="linear"
+			data-aos-duration="1000">
+				<h2>البرامج التدريبية
+				</h2>
+				<p>
+					دورات مميزة في جميع المجالات تحت إشراف المؤسسة العامة للتدريب التقني والمهني
+				</p>
+			</div>
+			<div class="d-flex justify-content-end">
+				<button class="me-3 btn-all">
+كل البرامج التدريبية			
+	</button>
+			</div>
+			<div class="trainning-card-container">
+				<div class="row">
+					<div class="col-lg-3 col-sm-12">
+						<div class="training-card">
+							<div class="img-trainning">
+								<div class="training-price">
+									250 ريال
+								</div>
+									<img src="assets/images/buisness.png" width="100%" height="200px">
+							</div>
+							<div class="trinning-body">
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الدورة:</p>
+									<p>برمجة</p>
+								</div>
+								<hr>
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الاستاذ:</p>
+									<p>عبد القادر</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>ساعات الدورة:</p>
+									<p>55ساعة</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>التاريخ:</p>
+									<p>15-10-2024</p>
+								</div>
+
+
+							</div>
+						</div>
+					
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<div class="training-card">
+							<div class="img-trainning">
+								<div class="training-price">
+									250 ريال
+								</div>
+									<img src="assets/images/buisness.png" width="100%" height="200px">
+							</div>
+							<div class="trinning-body">
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الدورة:</p>
+									<p>برمجة</p>
+								</div>
+								<hr>
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الاستاذ:</p>
+									<p>عبد القادر</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>ساعات الدورة:</p>
+									<p>55ساعة</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>التاريخ:</p>
+									<p>15-10-2024</p>
+								</div>
+
+
+							</div>
+						</div>					</div>
+
+					<div class="col-lg-3 col-sm-12">
+						<div class="training-card">
+							<div class="img-trainning">
+								<div class="training-price">
+									250 ريال
+								</div>
+									<img src="assets/images/buisness.png" width="100%" height="200px">
+							</div>
+							<div class="trinning-body">
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الدورة:</p>
+									<p>برمجة</p>
+								</div>
+								<hr>
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الاستاذ:</p>
+									<p>عبد القادر</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>ساعات الدورة:</p>
+									<p>55ساعة</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>التاريخ:</p>
+									<p>15-10-2024</p>
+								</div>
+
+
+							</div>
+						</div>					</div>
+
+					<div class="col-lg-3 col-sm-12">
+						<div class="training-card">
+							<div class="img-trainning">
+								<div class="training-price">
+									250 ريال
+								</div>
+									<img src="assets/images/buisness.png" width="100%" height="200px">
+							</div>
+							<div class="trinning-body">
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الدورة:</p>
+									<p>برمجة</p>
+								</div>
+								<hr>
+								<div class="d-flex justify-content-between align-items-center">
+									<p>الاستاذ:</p>
+									<p>عبد القادر</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>ساعات الدورة:</p>
+									<p>55ساعة</p>
+								</div>
+
+								<div class="d-flex justify-content-between align-items-center">
+									<p>التاريخ:</p>
+									<p>15-10-2024</p>
+								</div>
+
+
+							</div>
+						</div>				
+					
+					</div>
+				</div>
+				
+			</div>
+			
+		 </section>
+
+
+			<!-- 
+				-BEST TEACHERS				
+			-->
+			<section class="best-teacher">
+
+				<div class="title text-center mt-5"  data-aos="fade-down"
+				data-aos-easing="linear"
+				data-aos-duration="1000">
+					<h2> 
+						من أفضل المدربين
+
+					</h2>
+					<p>
+						توفر لك منصتنا أفضل محاضرين على مستوى المملكة العربية السعودية
+
+					</p>
+				</div>
+				<div class="container mt-5">
+				<div class="row">
+						<div class="col-lg-3">
+							<div class="card-teachers">
+								<img src="assets/images/man.png" width="80px" height="80px" alt="">
+								<h5 class="mt-1">أ. مارية مارية</h5>
+								<h6 class="mt-1">رياضيات  </h6>
+							</div>
+						</div>
+						<div class="col-lg-3">
+						<div class="card-teachers">
+								<img src="assets/images/man.png" width="80px" height="80px" alt="">
+								<h5 class="mt-1">أ. مارية مارية</h5>
+								<h6 class="mt-1">رياضيات  </h6>
+							</div>						</div>
+						<div class="col-lg-3">
+						<div class="card-teachers">
+								<img src="assets/images/man.png" width="80px" height="80px" alt="">
+								<h5 class="mt-1">أ. مارية مارية</h5>
+								<h6 class="mt-1">رياضيات  </h6>
+							</div>						</div>
+						<div class="col-lg-3">
+							<div class="card-teachers">
+								<img src="assets/images/man.png" width="80px" height="80px" alt="">
+								<h5 class="mt-1">أ. مارية مارية</h5>
+								<h6 class="mt-1">رياضيات  </h6>
+							</div>						</div>
+					</div>
+					
+				</div>
+			</section>
+
+
+<section id="zigzag" class="container mt-5"
+
+>
+				<div class="title text-center my-5">
+					<h2> 
+						أهمية الحصول على شهادة معتمدة
+					</h2>
+					<p>
+						دورات مميزة في جميع المجالات تحت إشراف المؤسسة العامة للتدريب التقني والمهني
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-12">
+						<div class="time-line-desc"
+						data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1000"
+
+						>
+							<h3>المصدر الأساسي للتنافسية بين الأفراد
+							</h3>
+							<p>تسعى الكثير من الجهات والمؤسسات إلى تحفيز موظفيها على الالتحاق بالدورات التدريبية، وذلك لتحسين خدمات المؤسسة، وتحقيق الاستقرار الوظيفي لموظفيها، ونشر ثقافة عادات النجاح والتفوق بين فريق العمل، 
+	
+							</p>
+						</div>
+						<div class="time-line-desc"
+						data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1300"
+>
+							<h3>   
+								تطوير المسار الوظيفى
+ 
+							</h3>
+
+							<p>
+
+								إن العمل على تطوير الذات بالمسار الوظيفي لا يكون فقط بالدراسة والالتحاق بالجامعات والحصول على الدراسات الأكاديمية، بل إن الجزء العملي وتطوير الذات يأتيان أيضا من خلال الدورات التدريبية المعتمدة والمختصة
+
+
+							</p>
+						</div>
+					
+					</div>
+					<div class="col-lg-3 col-sm-12">
+						<div class="zigzag-timeline__item ">
+							<span class="green-box"></span>
+							<!-- Milestone -->
+							<div className="zigzag-timeline__milestone"></div>
+						
+							<!-- Content -->
+						</div>
+						<div class="zigzag-timeline__item">
+							<span class="green-box-right">
+								 <span class="green-number">
+									1
+								</span>
+							</span>
+
+							<!-- Milestone -->
+							<div className="zigzag-timeline__milestone"></div>
+						
+							<!-- Content -->
+							
+						</div>	
+						<div class="zigzag-timeline__item">
+							<span class="green-box-left">
+								 <span class="green-number">
+									2
+								</span>
+							</span>
+
+							<!-- Milestone -->
+							<div className="zigzag-timeline__milestone"></div>
+						
+							<!-- Content -->
+							
+						</div>	
+						
+						<div class="zigzag-timeline__item">
+							<span class="green-box-right">
+								 <span class="green-number">
+									3
+								</span>
+							</span>
+
+							<!-- Milestone -->
+							<div className="zigzag-timeline__milestone"></div>
+						
+							<!-- Content -->
+							<span class="green-box2"></span>
+
+						</div>	
+					
+						
+				
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<div class="time-line-desc2" data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="1200"
+				   >
+							<h3>
+								سهولة الحصول على وظيفة مناسبة
+
+							</h3>
+							<p>تسعى الكثير من الجهات والمؤسسات إلى تحفيز موظفيها على الالتحاق بالدورات التدريبية، وذلك لتحسين خدمات المؤسسة، وتحقيق الاستقرار الوظيفي لموظفيها، ونشر ثقافة عادات النجاح والتفوق بين فريق العمل، 
+	
+							</p>
+						</div>
+					</div>
+				</div>
+	
+			
+</section>
+
+<section id="partner">
+	<div class="container">
+		<div class="title text-center my-5"
+		data-aos="fade-down"
+		data-aos-easing="linear"
+		data-aos-duration="1000"
+		
+		>
+			<h2> 
+				شركاؤنا 
+			</h2>
+			<p>
+				دورات مميزة في جميع المجالات تحت إشراف المؤسسة العامة للتدريب التقني والمهني
+	
+			</p>
+			<div class="d-flex justify-content-center align-items-center gap-5 flex-wrap">
+				<div class="cont-partner">
+					<img src="assets/images/partner.png" width="100%" height="100%" alt="">
+				</div>
+				<div class="cont-partner">
+					<img src="assets/images/partner.png" width="100%" height="100%" alt="">
+				</div>
+				<div class="cont-partner">
+					<img src="assets/images/partner.png" width="100%" height="100%" alt="">
+				</div>
+				<div class="cont-partner">
+					<img src="assets/images/partner.png" width="100%" height="100%" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+<section id="number">
+	<div class="numbers-container"
+	>
+		<div class="numbers">
+			<img src="assets/images/number1.png" alt="">
+			<p data-aos="fade-up"
+			data-aos-easing="linear"
+			data-aos-duration="1000">120 برنامج تدريبي
+			</p>
+		</div>
+		<div class="numbers">
+			<img src="assets/images/number2.png" alt="">
+			<p data-aos="fade-up"
+			data-aos-easing="linear"
+			data-aos-duration="1000">120 
+				محاضره أون لاين
+ 
+			</p>
+		</div>
+		<div class="numbers"> 
+			<img src="assets/images/number3.png" alt="">
+			<p data-aos="fade-up"
+			data-aos-easing="linear"
+			data-aos-duration="1000">10 
+مدربين 
+			</p>
+		</div>
+		<div class="numbers">
+			<img src="assets/images/number4.png" alt="">
+			<p data-aos="fade-up"
+			data-aos-easing="linear"
+			data-aos-duration="1000">8 
+				طلاب 
+							</p>
+		</div>
+	</div>
+</section>
+<section id="guarantee"
+
+>
+	<div class="title text-center my-5"
+	data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1000"
+	>
+		<h2> 
+			الاعتمادات
+		</h2>
+		<p>
+			جميع دوراتنا معتمدة من المؤسسة العامة للتدريب التقني والمهني
+
+		</p>
+	</div>
+	<div class="container">
+
+		<div class="d-flex flex-wrap justify-content-around align-items-center">
+			<div class="box-guar">
+				<img src="assets/images/guar.png" width="100%" height="100%" alt="">
+			</div>
+			<div class="box-guar">
+				<img src="assets/images/guar.png" width="100%" height="100%" alt="">
+			</div>
+			<div class="box-guar">
+				<img src="assets/images/guar.png" width="100%" height="100%" alt="">
+			</div>
+			<div class="box-guar">
+				<img src="assets/images/guar.png" width="100%" height="100%" alt="">
+			</div>
+			<div class="box-guar">
+				<img src="assets/images/guar.png" width="100%" height="100%" alt="">
+			</div>
+
+			<div class="box-guar">
+				<img src="assets/images/guar.png" width="100%" height="100%" alt="">
+			</div>
+		</div>
+	</div>
+
+</section>
+<footer
+>
+	<div class="container">
+		<div class="row"
+	
+		>
+			<div class="col-sm-12 col-lg-3">
+			<h5>روابط هامة</h5>
+			<ul>
+				<li class="linkfooter">الاسئلة الشائعة </li>
+			<li class="linkfooter">مواصفات البنية التقنية</li>
+			<li class="linkfooter">قياس رضا المستفيدين</li>
+			<li class="linkfooter">الشكاوي والاقترحاات</li>
+			<li class="linkfooter">الدعم الفني</li></ul>
+			</div>
+			<div class="col-sm-12 col-lg-3">
+			<h5>أقسام الموقع
+			</h5>
+			<ul>
+				<li class="linkfooter">
+					الرئيسية
+				</li>
+				<li class="linkfooter">
+					من نحن ؟
+
+				</li>
+				<li class="linkfooter">
+					البرامج التدريب
+				</li>
+				<li class="linkfooter">من افضل المتدريبين</li>
+				<li class="linkfooter"> تواصل معنا</li>
+			</ul>
+			</div>
+			<div class="col-sm-12 col-lg-3">
+			<h5>الإرشادات</h5>
+			<ul>
+				<li class="linkfooter">
+					الادلة الارشادية
+				</li>
+				
+			</ul>
+			</div>
+			<div class="col-sm-12 col-lg-3">
+			<h5>تواصل معنا
+			</h5>
+			<input type="text" class="form-control mt-3" placeholder="تواصل معنا " aria-describedby="form-control">
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+		<!-- Carousel JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<!-- Initialize Swiper -->
+
+		<!-- Bootstrab JS -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<!-- AOS library -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+		<!--Custom JS link -->
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
